@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Session_Status_Model()
+export function Wl_Session_Status_Model()
 {
   WlSdk_ModelAbstract.apply(this);
 

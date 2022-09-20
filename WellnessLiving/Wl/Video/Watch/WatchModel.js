@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Video_Watch_WatchModel()
+export function Wl_Video_Watch_WatchModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Page_Backend_BackendConfigModel()
+export function Wl_Page_Backend_BackendConfigModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

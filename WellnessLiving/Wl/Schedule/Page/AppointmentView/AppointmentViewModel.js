@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Schedule_Page_AppointmentView_AppointmentViewModel()
+export function Wl_Schedule_Page_AppointmentView_AppointmentViewModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

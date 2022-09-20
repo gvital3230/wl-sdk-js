@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Purchase_Item_PurchaseItemAmountModel()
+export function Wl_Purchase_Item_PurchaseItemAmountModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

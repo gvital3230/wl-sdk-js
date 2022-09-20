@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Term_TermModel()
+export function Wl_Profile_Term_TermModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

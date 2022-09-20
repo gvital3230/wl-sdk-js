@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Shop_Product_Option_Inventory_Count_InventoryCountModel()
+export function Wl_Shop_Product_Option_Inventory_Count_InventoryCountModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_DateLocalModel()
+export function Wl_Business_DateLocalModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

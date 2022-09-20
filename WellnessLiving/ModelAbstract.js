@@ -6,7 +6,7 @@
  * @mixin
  * @constructor
  */
-function WlSdk_ModelAbstract()
+export function WlSdk_ModelAbstract()
 {
   /**
    * Interval to cleanup current model in seconds. If time has been passed model will be invalidated.

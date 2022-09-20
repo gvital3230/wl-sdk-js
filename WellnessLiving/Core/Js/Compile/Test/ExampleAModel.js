@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Js_Compile_Test_ExampleAModel()
+export function Core_Js_Compile_Test_ExampleAModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

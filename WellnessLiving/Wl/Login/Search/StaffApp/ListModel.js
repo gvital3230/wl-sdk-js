@@ -7,7 +7,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Login_Search_StaffApp_ListModel()
+export function Wl_Login_Search_StaffApp_ListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

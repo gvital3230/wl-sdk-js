@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Family_Relation_RelationModel()
+export function Wl_Family_Relation_RelationModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Purchase_Share_PurchaseShareModel()
+export function Wl_Purchase_Share_PurchaseShareModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

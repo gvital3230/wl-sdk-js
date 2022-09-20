@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Page_Notifications_NotificationModel()
+export function Wl_Profile_Page_Notifications_NotificationModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

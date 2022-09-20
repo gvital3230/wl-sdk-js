@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Virtual_Zoom_Webhook_Test_TestWebhookModel()
+export function Wl_Virtual_Zoom_Webhook_Test_TestWebhookModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

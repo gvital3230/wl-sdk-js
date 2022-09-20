@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Classes_Period_Clients_Model()
+export function Wl_Classes_Period_Clients_Model()
 {
   WlSdk_ModelAbstract.apply(this);
 

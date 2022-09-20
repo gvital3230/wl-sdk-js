@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Async_Service_ActivateModel()
+export function Core_Async_Service_ActivateModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

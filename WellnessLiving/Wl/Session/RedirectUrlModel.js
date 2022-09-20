@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Session_RedirectUrlModel()
+export function Wl_Session_RedirectUrlModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

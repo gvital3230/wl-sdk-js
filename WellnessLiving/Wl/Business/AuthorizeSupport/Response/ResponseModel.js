@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_AuthorizeSupport_Response_ResponseModel()
+export function Wl_Business_AuthorizeSupport_Response_ResponseModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

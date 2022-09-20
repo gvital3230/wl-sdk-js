@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Log_LogBusinessDataModel()
+export function Wl_Log_LogBusinessDataModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

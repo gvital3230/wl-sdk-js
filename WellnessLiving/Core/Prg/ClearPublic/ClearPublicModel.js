@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Prg_ClearPublic_ClearPublicModel()
+export function Core_Prg_ClearPublic_ClearPublicModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

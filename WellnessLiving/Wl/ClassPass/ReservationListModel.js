@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_ClassPass_ReservationListModel()
+export function Wl_ClassPass_ReservationListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

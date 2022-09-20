@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Staff_Location_ListModel()
+export function Wl_Staff_Location_ListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

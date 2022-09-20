@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Prg_XDebug_ProfilerModeModel()
+export function Core_Prg_XDebug_ProfilerModeModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

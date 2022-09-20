@@ -15,7 +15,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Request_Api_Application_OriginModel()
+export function Core_Request_Api_Application_OriginModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

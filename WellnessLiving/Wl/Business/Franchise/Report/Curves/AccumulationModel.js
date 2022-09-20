@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Franchise_Report_Curves_AccumulationModel()
+export function Wl_Business_Franchise_Report_Curves_AccumulationModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

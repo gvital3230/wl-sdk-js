@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Sensor_SensorListModel()
+export function Wl_Profile_Sensor_SensorListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

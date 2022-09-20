@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_ClassPass_NxModel()
+export function Wl_ClassPass_NxModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

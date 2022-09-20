@@ -17,7 +17,7 @@
  * @param {string} [text_message=''] Exception message.
  * @param {{}} [a_data={}] Additional data to include in exception.
  */
-function WlSdk_AssertException(text_message,a_data)
+export function WlSdk_AssertException(text_message,a_data)
 {
   /**
    * Any additional data to add to assertion exception.

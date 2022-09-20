@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Event_Transfer_EventTransferModel()
+export function Wl_Event_Transfer_EventTransferModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

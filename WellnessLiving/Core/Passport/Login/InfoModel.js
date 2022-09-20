@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Passport_Login_InfoModel()
+export function Core_Passport_Login_InfoModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

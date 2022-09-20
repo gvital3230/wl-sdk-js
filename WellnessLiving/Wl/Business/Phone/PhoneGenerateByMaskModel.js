@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Phone_PhoneGenerateByMaskModel()
+export function Wl_Business_Phone_PhoneGenerateByMaskModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

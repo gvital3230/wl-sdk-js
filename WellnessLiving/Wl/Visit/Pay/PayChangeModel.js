@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Visit_Pay_PayChangeModel()
+export function Wl_Visit_Pay_PayChangeModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

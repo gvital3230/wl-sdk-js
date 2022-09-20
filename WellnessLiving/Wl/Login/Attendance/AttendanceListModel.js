@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Login_Attendance_AttendanceListModel()
+export function Wl_Login_Attendance_AttendanceListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

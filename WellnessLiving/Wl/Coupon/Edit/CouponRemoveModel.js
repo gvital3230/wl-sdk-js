@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Coupon_Edit_CouponRemoveModel()
+export function Wl_Coupon_Edit_CouponRemoveModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

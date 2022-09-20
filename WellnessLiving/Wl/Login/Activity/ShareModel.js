@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Login_Activity_ShareModel()
+export function Wl_Login_Activity_ShareModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

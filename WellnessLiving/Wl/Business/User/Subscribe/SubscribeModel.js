@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_User_Subscribe_SubscribeModel()
+export function Wl_Business_User_Subscribe_SubscribeModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -11,7 +11,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Request_Api_KeySessionModel()
+export function Core_Request_Api_KeySessionModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

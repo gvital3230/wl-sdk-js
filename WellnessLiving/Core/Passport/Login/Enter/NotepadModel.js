@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Passport_Login_Enter_NotepadModel()
+export function Core_Passport_Login_Enter_NotepadModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

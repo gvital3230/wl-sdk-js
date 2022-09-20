@@ -6,7 +6,7 @@
  *
  * @mixin
  */
-function WlSdk_Config_MixinAbstract()
+export function WlSdk_Config_MixinAbstract()
 {
   // Empty constructor.
 }

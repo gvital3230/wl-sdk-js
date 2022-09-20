@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Resource_Layout_LayoutModel()
+export function Wl_Resource_Layout_LayoutModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

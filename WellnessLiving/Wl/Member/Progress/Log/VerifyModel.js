@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Member_Progress_Log_VerifyModel()
+export function Wl_Member_Progress_Log_VerifyModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

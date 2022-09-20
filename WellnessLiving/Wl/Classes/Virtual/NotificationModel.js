@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Classes_Virtual_NotificationModel()
+export function Wl_Classes_Virtual_NotificationModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

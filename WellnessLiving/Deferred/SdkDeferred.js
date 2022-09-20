@@ -13,7 +13,7 @@
  * @see https://api.jquery.com/category/deferred-object/
  * @constructor
  */
-function WlSdk_Deferred()
+export function WlSdk_Deferred()
 {
   /**
    * Custom code to be executed when the object generates progress notifications.

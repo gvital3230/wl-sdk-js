@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Schedule_ScheduleList_StaffApp_Filter_Edit_ScheduleListFilterEditModel()
+export function Wl_Schedule_ScheduleList_StaffApp_Filter_Edit_ScheduleListFilterEditModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

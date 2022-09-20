@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Book_Process_ProcessModel()
+export function Wl_Book_Process_ProcessModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

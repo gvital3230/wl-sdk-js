@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Design_BusinessDesignModel()
+export function Wl_Business_Design_BusinessDesignModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

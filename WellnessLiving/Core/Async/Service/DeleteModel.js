@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Async_Service_DeleteModel()
+export function Core_Async_Service_DeleteModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

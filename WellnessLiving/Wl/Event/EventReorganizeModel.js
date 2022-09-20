@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Event_EventReorganizeModel()
+export function Wl_Event_EventReorganizeModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

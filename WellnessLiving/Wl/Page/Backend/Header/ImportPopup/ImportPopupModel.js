@@ -7,7 +7,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Page_Backend_Header_ImportPopup_ImportPopupModel()
+export function Wl_Page_Backend_Header_ImportPopup_ImportPopupModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

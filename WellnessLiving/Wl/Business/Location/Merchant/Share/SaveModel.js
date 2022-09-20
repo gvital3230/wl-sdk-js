@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Location_Merchant_Share_SaveModel()
+export function Wl_Business_Location_Merchant_Share_SaveModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

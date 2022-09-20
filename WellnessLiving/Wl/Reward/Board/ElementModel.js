@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Reward_Board_ElementModel()
+export function Wl_Reward_Board_ElementModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

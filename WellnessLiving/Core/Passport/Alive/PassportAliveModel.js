@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Passport_Alive_PassportAliveModel()
+export function Core_Passport_Alive_PassportAliveModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Import_Wizard_Step_StepTaskModel()
+export function Wl_Import_Wizard_Step_StepTaskModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

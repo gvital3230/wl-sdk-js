@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Async_QueueServer_StatWorkerModel()
+export function Core_Async_QueueServer_StatWorkerModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Promotion_Index_PromotionIndexModel()
+export function Wl_Promotion_Index_PromotionIndexModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

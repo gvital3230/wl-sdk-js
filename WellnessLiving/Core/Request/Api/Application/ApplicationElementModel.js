@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Request_Api_Application_ApplicationElementModel()
+export function Core_Request_Api_Application_ApplicationElementModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

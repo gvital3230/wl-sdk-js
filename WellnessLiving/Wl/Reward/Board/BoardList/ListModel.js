@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Reward_Board_BoardList_ListModel()
+export function Wl_Reward_Board_BoardList_ListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

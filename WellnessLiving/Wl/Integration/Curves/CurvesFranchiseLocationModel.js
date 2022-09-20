@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Integration_Curves_CurvesFranchiseLocationModel()
+export function Wl_Integration_Curves_CurvesFranchiseLocationModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

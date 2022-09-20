@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Prg_PgSql_QueryExecuteModel()
+export function Core_Prg_PgSql_QueryExecuteModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

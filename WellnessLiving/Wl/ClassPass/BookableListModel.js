@@ -10,7 +10,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_ClassPass_BookableListModel()
+export function Wl_ClassPass_BookableListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Request_Api_NxModel()
+export function Core_Request_Api_NxModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

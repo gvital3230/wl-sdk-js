@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Prg_Editor_SqlKeywordModel()
+export function Core_Prg_Editor_SqlKeywordModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

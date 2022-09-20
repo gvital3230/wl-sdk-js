@@ -11,7 +11,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_ClassPass_AvailabilityListModel()
+export function Wl_ClassPass_AvailabilityListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

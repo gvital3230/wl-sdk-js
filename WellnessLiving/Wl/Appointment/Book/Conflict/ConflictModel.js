@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Appointment_Book_Conflict_ConflictModel()
+export function Wl_Appointment_Book_Conflict_ConflictModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

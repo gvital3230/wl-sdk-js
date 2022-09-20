@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Edit_EditPasswordModel()
+export function Wl_Profile_Edit_EditPasswordModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

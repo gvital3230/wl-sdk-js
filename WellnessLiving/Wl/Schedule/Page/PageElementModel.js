@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Schedule_Page_PageElementModel()
+export function Wl_Schedule_Page_PageElementModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Login_Promotion_Rollup_AdjustModel()
+export function Wl_Login_Promotion_Rollup_AdjustModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

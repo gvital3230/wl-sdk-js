@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Login_Mail_MailUseModel()
+export function Wl_Login_Mail_MailUseModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

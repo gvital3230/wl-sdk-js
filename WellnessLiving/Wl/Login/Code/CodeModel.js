@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Login_Code_CodeModel()
+export function Wl_Login_Code_CodeModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

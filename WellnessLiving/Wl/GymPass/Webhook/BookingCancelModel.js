@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_GymPass_Webhook_BookingCancelModel()
+export function Wl_GymPass_Webhook_BookingCancelModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

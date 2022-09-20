@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Google_Booking_CreateBookingModel()
+export function Wl_Google_Booking_CreateBookingModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

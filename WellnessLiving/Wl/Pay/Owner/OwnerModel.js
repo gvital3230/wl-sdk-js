@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Pay_Owner_OwnerModel()
+export function Wl_Pay_Owner_OwnerModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

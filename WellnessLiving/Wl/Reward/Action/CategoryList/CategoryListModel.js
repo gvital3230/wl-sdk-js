@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Reward_Action_CategoryList_CategoryListModel()
+export function Wl_Reward_Action_CategoryList_CategoryListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

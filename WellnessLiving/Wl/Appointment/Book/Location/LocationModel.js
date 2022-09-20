@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Appointment_Book_Location_LocationModel()
+export function Wl_Appointment_Book_Location_LocationModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

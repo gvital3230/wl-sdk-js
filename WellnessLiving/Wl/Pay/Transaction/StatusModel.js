@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Pay_Transaction_StatusModel()
+export function Wl_Pay_Transaction_StatusModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

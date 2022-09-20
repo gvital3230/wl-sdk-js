@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Book_Process_Info_InfoCanCompleteModel()
+export function Wl_Book_Process_Info_InfoCanCompleteModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

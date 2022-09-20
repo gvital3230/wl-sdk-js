@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Insurance_Reimbursement_Export_AccumulationModel()
+export function Wl_Insurance_Reimbursement_Export_AccumulationModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Insurance_Enrollment_Field_EnrollmentFieldListModel()
+export function Wl_Insurance_Enrollment_Field_EnrollmentFieldListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

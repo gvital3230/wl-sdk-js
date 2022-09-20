@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Requirement_Test_CheckTestModel()
+export function Core_Requirement_Test_CheckTestModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

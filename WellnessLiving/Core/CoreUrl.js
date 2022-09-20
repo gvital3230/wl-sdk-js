@@ -3,7 +3,7 @@
  *
  * @constructor
  */
-function WlSdk_Core_Url()
+export function WlSdk_Core_Url()
 {
   // Do nothing.
 }

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Staff_StaffView_StaffViewModel()
+export function Wl_Staff_StaffView_StaffViewModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

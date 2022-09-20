@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Pay_Processor_CyberSource_CsFlexKeyModel()
+export function Wl_Pay_Processor_CyberSource_CsFlexKeyModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Debug_Time_DebugTimeModel()
+export function Core_Debug_Time_DebugTimeModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

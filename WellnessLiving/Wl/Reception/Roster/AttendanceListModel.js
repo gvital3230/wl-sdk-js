@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Reception_Roster_AttendanceListModel()
+export function Wl_Reception_Roster_AttendanceListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

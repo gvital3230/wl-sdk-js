@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Appointment_Book_Schedule_CalendarModel()
+export function Wl_Appointment_Book_Schedule_CalendarModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

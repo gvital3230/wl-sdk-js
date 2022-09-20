@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Reward_Prize_PrizeModel()
+export function Wl_Reward_Prize_PrizeModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

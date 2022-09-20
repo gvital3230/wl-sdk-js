@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Google_GoogleCoordinateModel()
+export function Core_Google_GoogleCoordinateModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

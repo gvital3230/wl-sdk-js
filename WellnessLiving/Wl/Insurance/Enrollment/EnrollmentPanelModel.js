@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Insurance_Enrollment_EnrollmentPanelModel()
+export function Wl_Insurance_Enrollment_EnrollmentPanelModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

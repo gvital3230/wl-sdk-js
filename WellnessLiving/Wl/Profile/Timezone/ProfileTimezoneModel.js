@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Timezone_ProfileTimezoneModel()
+export function Wl_Profile_Timezone_ProfileTimezoneModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

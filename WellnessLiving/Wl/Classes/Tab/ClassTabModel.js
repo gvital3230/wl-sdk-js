@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Classes_Tab_ClassTabModel()
+export function Wl_Classes_Tab_ClassTabModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

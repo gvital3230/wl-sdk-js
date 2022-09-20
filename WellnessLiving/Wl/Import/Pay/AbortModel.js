@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Import_Pay_AbortModel()
+export function Wl_Import_Pay_AbortModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

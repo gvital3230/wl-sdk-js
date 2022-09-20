@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Account_Select_SelectModel()
+export function Wl_Profile_Account_Select_SelectModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

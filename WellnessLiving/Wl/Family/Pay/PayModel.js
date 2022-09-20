@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Family_Pay_PayModel()
+export function Wl_Family_Pay_PayModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

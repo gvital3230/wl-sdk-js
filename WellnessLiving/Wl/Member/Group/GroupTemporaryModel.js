@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Member_Group_GroupTemporaryModel()
+export function Wl_Member_Group_GroupTemporaryModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

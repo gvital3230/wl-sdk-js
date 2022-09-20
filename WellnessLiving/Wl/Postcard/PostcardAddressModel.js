@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Postcard_PostcardAddressModel()
+export function Wl_Postcard_PostcardAddressModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

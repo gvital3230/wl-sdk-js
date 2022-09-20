@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Pay_Form_Complete_CompleteModel()
+export function Wl_Pay_Form_Complete_CompleteModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

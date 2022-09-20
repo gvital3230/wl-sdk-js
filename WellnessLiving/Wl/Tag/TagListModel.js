@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Tag_TagListModel()
+export function Wl_Tag_TagListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

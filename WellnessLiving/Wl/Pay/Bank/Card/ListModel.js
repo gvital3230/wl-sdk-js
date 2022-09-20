@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Pay_Bank_Card_ListModel()
+export function Wl_Pay_Bank_Card_ListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

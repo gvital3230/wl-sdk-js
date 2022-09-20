@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Report_Mail_PostcardSummaryModel()
+export function Wl_Report_Mail_PostcardSummaryModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

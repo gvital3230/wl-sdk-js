@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Purchase_Mail_PurchaseMailModel()
+export function Wl_Purchase_Mail_PurchaseMailModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

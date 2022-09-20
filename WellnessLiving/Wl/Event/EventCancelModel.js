@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Event_EventCancelModel()
+export function Wl_Event_EventCancelModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

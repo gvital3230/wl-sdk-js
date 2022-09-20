@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Google_Booking_HealthCheckModel()
+export function Wl_Google_Booking_HealthCheckModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

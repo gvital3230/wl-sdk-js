@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Member_Group_GroupList_ListModel()
+export function Wl_Member_Group_GroupList_ListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

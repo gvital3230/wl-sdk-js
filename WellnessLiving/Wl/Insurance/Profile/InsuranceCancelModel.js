@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Insurance_Profile_InsuranceCancelModel()
+export function Wl_Insurance_Profile_InsuranceCancelModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

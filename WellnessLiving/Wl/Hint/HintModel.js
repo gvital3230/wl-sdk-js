@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Hint_HintModel()
+export function Wl_Hint_HintModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

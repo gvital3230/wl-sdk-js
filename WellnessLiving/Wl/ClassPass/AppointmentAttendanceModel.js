@@ -9,7 +9,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_ClassPass_AppointmentAttendanceModel()
+export function Wl_ClassPass_AppointmentAttendanceModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

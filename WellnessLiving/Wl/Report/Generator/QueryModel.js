@@ -9,7 +9,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Report_Generator_QueryModel()
+export function Wl_Report_Generator_QueryModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

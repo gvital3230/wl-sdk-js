@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Toast_ToastModel()
+export function Wl_Toast_ToastModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

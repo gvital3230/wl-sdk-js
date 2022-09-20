@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Google_GoogleCaptchaModel()
+export function Core_Google_GoogleCaptchaModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

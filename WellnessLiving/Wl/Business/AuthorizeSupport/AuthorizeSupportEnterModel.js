@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_AuthorizeSupport_AuthorizeSupportEnterModel()
+export function Wl_Business_AuthorizeSupport_AuthorizeSupportEnterModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Virtual_Meeting_Zoom_ZoomMeetingEndModel()
+export function Wl_Virtual_Meeting_Zoom_ZoomMeetingEndModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

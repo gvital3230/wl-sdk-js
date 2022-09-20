@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Request_Test_RequestDenyModel()
+export function Core_Request_Test_RequestDenyModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

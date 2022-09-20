@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Rank_SearchDataModel()
+export function Wl_Rank_SearchDataModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Lead_LeadStatusModel()
+export function Wl_Lead_LeadStatusModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Sms_History_ResendModel()
+export function Wl_Sms_History_ResendModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

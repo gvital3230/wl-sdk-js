@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Appointment_Edit_AddonUpdateModel()
+export function Wl_Appointment_Edit_AddonUpdateModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

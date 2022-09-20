@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Video_Level_LevelListModel()
+export function Wl_Video_Level_LevelListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

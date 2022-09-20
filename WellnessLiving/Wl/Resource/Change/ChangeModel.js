@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Resource_Change_ChangeModel()
+export function Wl_Resource_Change_ChangeModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

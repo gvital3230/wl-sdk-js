@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Visit_VisitHistoricalCount_VisitHistoricalCountModel()
+export function Wl_Visit_VisitHistoricalCount_VisitHistoricalCountModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

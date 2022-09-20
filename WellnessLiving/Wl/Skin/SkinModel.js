@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Skin_SkinModel()
+export function Wl_Skin_SkinModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

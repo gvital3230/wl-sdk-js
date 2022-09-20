@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Classes_ClassList_ListModel()
+export function Wl_Classes_ClassList_ListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

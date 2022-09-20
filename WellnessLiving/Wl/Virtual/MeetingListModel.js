@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Virtual_MeetingListModel()
+export function Wl_Virtual_MeetingListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

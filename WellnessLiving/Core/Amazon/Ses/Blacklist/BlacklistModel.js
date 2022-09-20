@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Amazon_Ses_Blacklist_BlacklistModel()
+export function Core_Amazon_Ses_Blacklist_BlacklistModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

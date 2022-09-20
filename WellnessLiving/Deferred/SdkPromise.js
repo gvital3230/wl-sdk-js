@@ -6,7 +6,7 @@
  * @param {WlSdk_Deferred} o_defer Deferred object to be represented by the promise.
  * @constructor
  */
-function WlSdk_Deferred_Promise(o_defer)
+export function WlSdk_Deferred_Promise(o_defer)
 {
   /**
    * Deferred object to be represented by the promise.

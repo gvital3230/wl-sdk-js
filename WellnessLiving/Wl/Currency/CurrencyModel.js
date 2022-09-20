@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Currency_CurrencyModel()
+export function Wl_Currency_CurrencyModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

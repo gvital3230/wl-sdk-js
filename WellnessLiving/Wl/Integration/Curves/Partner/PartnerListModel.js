@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Integration_Curves_Partner_PartnerListModel()
+export function Wl_Integration_Curves_Partner_PartnerListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Sms_SmsSendModel()
+export function Wl_Business_Sms_SmsSendModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

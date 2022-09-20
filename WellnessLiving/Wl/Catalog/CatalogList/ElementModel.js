@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Catalog_CatalogList_ElementModel()
+export function Wl_Catalog_CatalogList_ElementModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

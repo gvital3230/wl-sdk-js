@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_NameList_NameListModel()
+export function Wl_Business_NameList_NameListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

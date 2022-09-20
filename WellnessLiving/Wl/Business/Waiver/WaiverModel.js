@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Waiver_WaiverModel()
+export function Wl_Business_Waiver_WaiverModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

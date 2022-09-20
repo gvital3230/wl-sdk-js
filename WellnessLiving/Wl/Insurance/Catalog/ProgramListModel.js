@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Insurance_Catalog_ProgramListModel()
+export function Wl_Insurance_Catalog_ProgramListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

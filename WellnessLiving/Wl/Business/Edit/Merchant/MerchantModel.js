@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Edit_Merchant_MerchantModel()
+export function Wl_Business_Edit_Merchant_MerchantModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

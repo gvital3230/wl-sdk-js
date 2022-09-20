@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Appointment_Book_Asset_CategoryModel()
+export function Wl_Appointment_Book_Asset_CategoryModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Discount_Code_DiscountCodeModel()
+export function Wl_Discount_Code_DiscountCodeModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_AuthorizePartner_AuthorizePartnerModel()
+export function Wl_Business_AuthorizePartner_AuthorizePartnerModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Help_Popup_PopupModel()
+export function Wl_Help_Popup_PopupModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

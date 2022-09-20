@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Video_VideoLimitModel()
+export function Wl_Video_VideoLimitModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Billing_BillingModel()
+export function Wl_Profile_Billing_BillingModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

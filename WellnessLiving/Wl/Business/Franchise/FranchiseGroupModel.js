@@ -7,7 +7,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Franchise_FranchiseGroupModel()
+export function Wl_Business_Franchise_FranchiseGroupModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

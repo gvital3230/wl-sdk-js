@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Login_Permission_Access_AccessModel()
+export function Wl_Login_Permission_Access_AccessModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

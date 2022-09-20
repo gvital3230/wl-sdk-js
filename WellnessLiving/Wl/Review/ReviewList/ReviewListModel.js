@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Review_ReviewList_ReviewListModel()
+export function Wl_Review_ReviewList_ReviewListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

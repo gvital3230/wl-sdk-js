@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Pay_Address_ProfileModel()
+export function Wl_Pay_Address_ProfileModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

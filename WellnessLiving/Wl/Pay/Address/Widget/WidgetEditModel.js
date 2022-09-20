@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Pay_Address_Widget_WidgetEditModel()
+export function Wl_Pay_Address_Widget_WidgetEditModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

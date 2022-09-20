@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Catalog_Cart_DiscountCodeModel()
+export function Wl_Catalog_Cart_DiscountCodeModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

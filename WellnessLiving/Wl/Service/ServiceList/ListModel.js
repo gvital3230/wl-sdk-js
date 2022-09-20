@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Service_ServiceList_ListModel()
+export function Wl_Service_ServiceList_ListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

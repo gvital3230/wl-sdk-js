@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Async_Service_RestartModel()
+export function Core_Async_Service_RestartModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

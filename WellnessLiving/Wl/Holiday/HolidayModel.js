@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Holiday_HolidayModel()
+export function Wl_Holiday_HolidayModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

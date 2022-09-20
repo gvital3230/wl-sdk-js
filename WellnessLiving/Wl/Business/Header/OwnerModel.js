@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Header_OwnerModel()
+export function Wl_Business_Header_OwnerModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

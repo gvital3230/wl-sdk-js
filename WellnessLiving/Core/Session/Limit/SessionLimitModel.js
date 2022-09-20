@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Session_Limit_SessionLimitModel()
+export function Core_Session_Limit_SessionLimitModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

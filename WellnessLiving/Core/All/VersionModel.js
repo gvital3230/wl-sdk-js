@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_All_VersionModel()
+export function Core_All_VersionModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

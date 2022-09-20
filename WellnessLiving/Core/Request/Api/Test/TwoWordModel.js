@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Request_Api_Test_TwoWordModel()
+export function Core_Request_Api_Test_TwoWordModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

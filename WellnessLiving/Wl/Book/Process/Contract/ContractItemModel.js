@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Book_Process_Contract_ContractItemModel()
+export function Wl_Book_Process_Contract_ContractItemModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

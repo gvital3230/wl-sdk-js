@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Search_Criteria_SearchCriteriaListModel()
+export function Wl_Search_Criteria_SearchCriteriaListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

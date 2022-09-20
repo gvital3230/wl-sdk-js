@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Passport_ChangePassword_ChangePasswordApplyModel()
+export function Core_Passport_ChangePassword_ChangePasswordApplyModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

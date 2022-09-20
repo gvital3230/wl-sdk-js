@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Login_Coupon_Transfer_CouponTransferModel()
+export function Wl_Login_Coupon_Transfer_CouponTransferModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

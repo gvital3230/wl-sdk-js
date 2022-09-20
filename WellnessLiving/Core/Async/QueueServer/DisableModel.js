@@ -11,7 +11,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Async_QueueServer_DisableModel()
+export function Core_Async_QueueServer_DisableModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

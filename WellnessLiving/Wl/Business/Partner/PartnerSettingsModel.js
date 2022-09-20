@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Partner_PartnerSettingsModel()
+export function Wl_Business_Partner_PartnerSettingsModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -13,7 +13,7 @@
  *
  * @constructor
  */
-function WlSdk_SyncError()
+export function WlSdk_SyncError()
 {
   /**
    * A list of all errors that occurred.

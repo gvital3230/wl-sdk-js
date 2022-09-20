@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Video_Tag_TagModel()
+export function Wl_Video_Tag_TagModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

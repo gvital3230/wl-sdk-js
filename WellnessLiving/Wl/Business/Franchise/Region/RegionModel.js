@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Franchise_Region_RegionModel()
+export function Wl_Business_Franchise_Region_RegionModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Prg_Login_EnterModel()
+export function Core_Prg_Login_EnterModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

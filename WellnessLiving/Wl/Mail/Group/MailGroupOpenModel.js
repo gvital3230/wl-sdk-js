@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Mail_Group_MailGroupOpenModel()
+export function Wl_Mail_Group_MailGroupOpenModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

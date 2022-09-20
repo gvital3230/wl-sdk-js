@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Location_Select_LocationSelectModel()
+export function Wl_Location_Select_LocationSelectModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

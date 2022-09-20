@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Video_VideoListModel()
+export function Wl_Video_VideoListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

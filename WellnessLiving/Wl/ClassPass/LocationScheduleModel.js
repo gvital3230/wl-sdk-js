@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_ClassPass_LocationScheduleModel()
+export function Wl_ClassPass_LocationScheduleModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

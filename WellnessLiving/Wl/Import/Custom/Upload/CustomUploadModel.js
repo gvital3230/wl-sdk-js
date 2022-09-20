@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Import_Custom_Upload_CustomUploadModel()
+export function Wl_Import_Custom_Upload_CustomUploadModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

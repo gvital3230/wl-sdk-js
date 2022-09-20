@@ -9,7 +9,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Sms_Response_ResponseTwilioErrorModel()
+export function Core_Sms_Response_ResponseTwilioErrorModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

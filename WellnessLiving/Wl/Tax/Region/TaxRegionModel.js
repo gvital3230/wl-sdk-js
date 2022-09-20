@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Tax_Region_TaxRegionModel()
+export function Wl_Tax_Region_TaxRegionModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

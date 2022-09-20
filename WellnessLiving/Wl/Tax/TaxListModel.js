@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Tax_TaxListModel()
+export function Wl_Tax_TaxListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

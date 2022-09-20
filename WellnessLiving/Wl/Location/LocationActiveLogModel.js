@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Location_LocationActiveLogModel()
+export function Wl_Location_LocationActiveLogModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

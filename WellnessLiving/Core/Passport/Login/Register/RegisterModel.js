@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Passport_Login_Register_RegisterModel()
+export function Core_Passport_Login_Register_RegisterModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

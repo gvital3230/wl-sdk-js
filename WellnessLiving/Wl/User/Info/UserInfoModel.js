@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_User_Info_UserInfoModel()
+export function Wl_User_Info_UserInfoModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

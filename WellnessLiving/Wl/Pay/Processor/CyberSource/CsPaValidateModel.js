@@ -7,7 +7,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Pay_Processor_CyberSource_CsPaValidateModel()
+export function Wl_Pay_Processor_CyberSource_CsPaValidateModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

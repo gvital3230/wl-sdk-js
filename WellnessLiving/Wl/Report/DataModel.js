@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Report_DataModel()
+export function Wl_Report_DataModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

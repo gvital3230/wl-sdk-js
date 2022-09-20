@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Drive_ImageUpload_VariantModel()
+export function Core_Drive_ImageUpload_VariantModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

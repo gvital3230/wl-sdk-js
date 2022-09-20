@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Classes_Period_Modify_ModifyModel()
+export function Wl_Classes_Period_Modify_ModifyModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Book_Cancel_CancelModel()
+export function Wl_Book_Cancel_CancelModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

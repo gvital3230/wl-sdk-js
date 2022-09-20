@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Spa_Model_ModelPoolModel()
+export function Core_Spa_Model_ModelPoolModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

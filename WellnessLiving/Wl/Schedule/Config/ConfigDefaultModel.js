@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Schedule_Config_ConfigDefaultModel()
+export function Wl_Schedule_Config_ConfigDefaultModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

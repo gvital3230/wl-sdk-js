@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_User_Referrer_ReferrerModel()
+export function Wl_User_Referrer_ReferrerModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

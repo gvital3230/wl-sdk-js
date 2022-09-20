@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Appointment_Book_Staff_ListModel()
+export function Wl_Appointment_Book_Staff_ListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

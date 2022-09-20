@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Debug_Run_KillModel()
+export function Core_Debug_Run_KillModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -4,7 +4,7 @@
  * @augments WlSdk_Config_MixinAbstract
  * @mixes WlSdk_Config_MixinAbstract
  */
-function WlSdk_Config_Mixin()
+export function WlSdk_Config_Mixin()
 {
 }
 

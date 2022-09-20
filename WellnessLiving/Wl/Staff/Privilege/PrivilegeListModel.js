@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Staff_Privilege_PrivilegeListModel()
+export function Wl_Staff_Privilege_PrivilegeListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

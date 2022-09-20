@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Search_Template_Panel_PanelModel()
+export function Wl_Search_Template_Panel_PanelModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

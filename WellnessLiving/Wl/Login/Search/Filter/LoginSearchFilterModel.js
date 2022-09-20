@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Login_Search_Filter_LoginSearchFilterModel()
+export function Wl_Login_Search_Filter_LoginSearchFilterModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Alert_AlertModel()
+export function Wl_Profile_Alert_AlertModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

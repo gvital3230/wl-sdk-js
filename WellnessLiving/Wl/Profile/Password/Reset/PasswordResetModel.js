@@ -7,7 +7,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Password_Reset_PasswordResetModel()
+export function Wl_Profile_Password_Reset_PasswordResetModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

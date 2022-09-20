@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Reward_Config_RewardConfigModel()
+export function Wl_Business_Reward_Config_RewardConfigModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

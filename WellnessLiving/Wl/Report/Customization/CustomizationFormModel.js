@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Report_Customization_CustomizationFormModel()
+export function Wl_Report_Customization_CustomizationFormModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

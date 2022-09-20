@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Catalog_Coupon_Payment_InformationModel()
+export function Wl_Catalog_Coupon_Payment_InformationModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

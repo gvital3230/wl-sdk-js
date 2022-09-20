@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Location_View_ViewModel()
+export function Wl_Location_View_ViewModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

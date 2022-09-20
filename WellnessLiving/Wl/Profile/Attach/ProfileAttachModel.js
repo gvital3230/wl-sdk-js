@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Attach_ProfileAttachModel()
+export function Wl_Profile_Attach_ProfileAttachModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

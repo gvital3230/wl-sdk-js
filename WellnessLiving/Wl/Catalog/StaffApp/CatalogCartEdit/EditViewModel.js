@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Catalog_StaffApp_CatalogCartEdit_EditViewModel()
+export function Wl_Catalog_StaffApp_CatalogCartEdit_EditViewModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

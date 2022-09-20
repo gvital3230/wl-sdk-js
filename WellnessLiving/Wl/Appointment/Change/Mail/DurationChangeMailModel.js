@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Appointment_Change_Mail_DurationChangeMailModel()
+export function Wl_Appointment_Change_Mail_DurationChangeMailModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Contract_ContractAll_ContractAllModel()
+export function Wl_Profile_Contract_ContractAll_ContractAllModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

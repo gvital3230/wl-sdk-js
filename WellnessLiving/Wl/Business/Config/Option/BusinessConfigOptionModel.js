@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Config_Option_BusinessConfigOptionModel()
+export function Wl_Business_Config_Option_BusinessConfigOptionModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

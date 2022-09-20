@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Member_Progress_Log_Image_ImageModel()
+export function Wl_Member_Progress_Log_Image_ImageModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

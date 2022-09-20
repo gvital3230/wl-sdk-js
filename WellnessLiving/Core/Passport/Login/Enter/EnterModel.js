@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Passport_Login_Enter_EnterModel()
+export function Core_Passport_Login_Enter_EnterModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

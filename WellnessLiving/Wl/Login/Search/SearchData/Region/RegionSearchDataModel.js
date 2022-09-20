@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Login_Search_SearchData_Region_RegionSearchDataModel()
+export function Wl_Login_Search_SearchData_Region_RegionSearchDataModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

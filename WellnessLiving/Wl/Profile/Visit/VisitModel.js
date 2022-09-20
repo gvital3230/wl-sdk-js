@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Visit_VisitModel()
+export function Wl_Profile_Visit_VisitModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

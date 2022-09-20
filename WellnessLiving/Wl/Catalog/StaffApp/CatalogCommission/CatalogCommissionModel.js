@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Catalog_StaffApp_CatalogCommission_CatalogCommissionModel()
+export function Wl_Catalog_StaffApp_CatalogCommission_CatalogCommissionModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Login_Member_MemberModel()
+export function Wl_Login_Member_MemberModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

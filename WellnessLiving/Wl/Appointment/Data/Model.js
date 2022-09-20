@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Appointment_Data_Model()
+export function Wl_Appointment_Data_Model()
 {
   WlSdk_ModelAbstract.apply(this);
 

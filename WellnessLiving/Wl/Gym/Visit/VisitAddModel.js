@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Gym_Visit_VisitAddModel()
+export function Wl_Gym_Visit_VisitAddModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

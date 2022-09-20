@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Classes_Type_Index_Model()
+export function Wl_Classes_Type_Index_Model()
 {
   WlSdk_ModelAbstract.apply(this);
 

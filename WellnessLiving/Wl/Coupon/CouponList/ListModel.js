@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Coupon_CouponList_ListModel()
+export function Wl_Coupon_CouponList_ListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Presence_PresenceActivateModel()
+export function Wl_Presence_PresenceActivateModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

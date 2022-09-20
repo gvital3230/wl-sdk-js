@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Book_Process_Purchase_PurchaseElementListModel()
+export function Wl_Book_Process_Purchase_PurchaseElementListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Schedule_ScheduleList_StaffApp_Classes_ScheduleListClassesModel()
+export function Wl_Schedule_ScheduleList_StaffApp_Classes_ScheduleListClassesModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

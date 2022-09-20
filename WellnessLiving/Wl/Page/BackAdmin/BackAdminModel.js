@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Page_BackAdmin_BackAdminModel()
+export function Wl_Page_BackAdmin_BackAdminModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

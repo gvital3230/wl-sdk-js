@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Schedule_Tab_TabModel()
+export function Wl_Schedule_Tab_TabModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Staff_Role_StaffRoleModel()
+export function Wl_Staff_Role_StaffRoleModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

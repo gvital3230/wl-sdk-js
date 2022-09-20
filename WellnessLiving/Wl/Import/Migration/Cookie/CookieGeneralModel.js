@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Import_Migration_Cookie_CookieGeneralModel()
+export function Wl_Import_Migration_Cookie_CookieGeneralModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

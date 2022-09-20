@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_ClassPass_BusinessDataModel()
+export function Wl_ClassPass_BusinessDataModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

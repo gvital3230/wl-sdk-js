@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Appointment_Change_DurationModel()
+export function Wl_Appointment_Change_DurationModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Push_PushModel()
+export function Core_Push_PushModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

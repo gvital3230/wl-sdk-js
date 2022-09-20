@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Schedule_WorkingTime_StaffWorkingModel()
+export function Wl_Schedule_WorkingTime_StaffWorkingModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

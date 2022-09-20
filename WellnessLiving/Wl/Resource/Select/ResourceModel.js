@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Resource_Select_ResourceModel()
+export function Wl_Resource_Select_ResourceModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Reception_Roster_Search_SearchModel()
+export function Wl_Reception_Roster_Search_SearchModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

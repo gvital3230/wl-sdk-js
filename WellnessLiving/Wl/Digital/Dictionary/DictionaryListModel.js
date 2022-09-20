@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Digital_Dictionary_DictionaryListModel()
+export function Wl_Digital_Dictionary_DictionaryListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

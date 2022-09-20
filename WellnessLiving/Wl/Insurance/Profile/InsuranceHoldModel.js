@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Insurance_Profile_InsuranceHoldModel()
+export function Wl_Insurance_Profile_InsuranceHoldModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

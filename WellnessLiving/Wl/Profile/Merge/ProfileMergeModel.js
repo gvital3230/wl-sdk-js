@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Merge_ProfileMergeModel()
+export function Wl_Profile_Merge_ProfileMergeModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

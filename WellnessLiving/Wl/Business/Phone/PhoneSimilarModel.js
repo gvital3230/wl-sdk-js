@@ -10,7 +10,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Phone_PhoneSimilarModel()
+export function Wl_Business_Phone_PhoneSimilarModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

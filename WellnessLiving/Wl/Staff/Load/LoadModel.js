@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Staff_Load_LoadModel()
+export function Wl_Staff_Load_LoadModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

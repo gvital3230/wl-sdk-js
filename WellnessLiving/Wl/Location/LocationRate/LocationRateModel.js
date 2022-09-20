@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Location_LocationRate_LocationRateModel()
+export function Wl_Location_LocationRate_LocationRateModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

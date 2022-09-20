@@ -13,7 +13,7 @@
  *
  * Last ID: 2.
  */
-function WlSdk_Config_ConfigRegionSid()
+export function WlSdk_Config_ConfigRegionSid()
 {
   // Empty constructor.
 }

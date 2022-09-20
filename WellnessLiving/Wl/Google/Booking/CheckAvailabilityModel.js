@@ -7,7 +7,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Google_Booking_CheckAvailabilityModel()
+export function Wl_Google_Booking_CheckAvailabilityModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

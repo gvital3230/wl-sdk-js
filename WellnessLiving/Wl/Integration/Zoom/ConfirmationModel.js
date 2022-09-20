@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Integration_Zoom_ConfirmationModel()
+export function Wl_Integration_Zoom_ConfirmationModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

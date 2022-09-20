@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Video_Subscription_UpgradeModel()
+export function Wl_Video_Subscription_UpgradeModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

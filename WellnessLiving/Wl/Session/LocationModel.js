@@ -12,7 +12,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Session_LocationModel()
+export function Wl_Session_LocationModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

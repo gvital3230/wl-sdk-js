@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Partner_Contest_PartnerContestModel()
+export function Wl_Business_Partner_Contest_PartnerContestModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

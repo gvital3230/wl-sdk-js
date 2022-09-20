@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_ClassPass_ScheduleAttendanceModel()
+export function Wl_ClassPass_ScheduleAttendanceModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

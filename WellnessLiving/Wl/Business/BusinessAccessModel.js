@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_BusinessAccessModel()
+export function Wl_Business_BusinessAccessModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

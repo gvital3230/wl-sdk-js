@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Account_Subscription_PriceOverrideValidateModel()
+export function Wl_Business_Account_Subscription_PriceOverrideValidateModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

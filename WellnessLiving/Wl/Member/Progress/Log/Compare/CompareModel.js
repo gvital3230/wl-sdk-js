@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Member_Progress_Log_Compare_CompareModel()
+export function Wl_Member_Progress_Log_Compare_CompareModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

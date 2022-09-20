@@ -11,7 +11,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Request_Test_MethodNxModel()
+export function Core_Request_Test_MethodNxModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

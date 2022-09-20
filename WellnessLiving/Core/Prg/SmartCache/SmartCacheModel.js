@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Prg_SmartCache_SmartCacheModel()
+export function Core_Prg_SmartCache_SmartCacheModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

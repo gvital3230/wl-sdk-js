@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Insurance_Reimbursement_Refuse_ReimbursementRefuseEditModel()
+export function Wl_Insurance_Reimbursement_Refuse_ReimbursementRefuseEditModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

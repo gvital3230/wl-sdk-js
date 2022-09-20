@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Account_Subscription_SearchDataModel()
+export function Wl_Business_Account_Subscription_SearchDataModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

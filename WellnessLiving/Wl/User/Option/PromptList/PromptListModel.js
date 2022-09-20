@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_User_Option_PromptList_PromptListModel()
+export function Wl_User_Option_PromptList_PromptListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

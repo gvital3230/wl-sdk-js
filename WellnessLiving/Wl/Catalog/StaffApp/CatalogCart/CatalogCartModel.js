@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Catalog_StaffApp_CatalogCart_CatalogCartModel()
+export function Wl_Catalog_StaffApp_CatalogCart_CatalogCartModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

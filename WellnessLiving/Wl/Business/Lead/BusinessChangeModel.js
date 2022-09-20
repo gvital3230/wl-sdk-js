@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Lead_BusinessChangeModel()
+export function Wl_Business_Lead_BusinessChangeModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_WebSocket_SubscribeModel()
+export function Core_WebSocket_SubscribeModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

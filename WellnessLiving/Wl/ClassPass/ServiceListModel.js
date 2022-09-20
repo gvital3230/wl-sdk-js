@@ -9,7 +9,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_ClassPass_ServiceListModel()
+export function Wl_ClassPass_ServiceListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

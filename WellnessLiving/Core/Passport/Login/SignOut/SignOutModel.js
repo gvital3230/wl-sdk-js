@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Passport_Login_SignOut_SignOutModel()
+export function Core_Passport_Login_SignOut_SignOutModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

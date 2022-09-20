@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Shop_Category_StaffApp_CategoryModel()
+export function Wl_Shop_Category_StaffApp_CategoryModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

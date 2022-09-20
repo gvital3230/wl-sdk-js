@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Skin_Application_Connect_Edit_ConnectEditModel()
+export function Wl_Skin_Application_Connect_Edit_ConnectEditModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

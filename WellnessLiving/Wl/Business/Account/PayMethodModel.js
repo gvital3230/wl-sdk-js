@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Account_PayMethodModel()
+export function Wl_Business_Account_PayMethodModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

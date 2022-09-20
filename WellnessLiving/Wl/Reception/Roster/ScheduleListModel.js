@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Reception_Roster_ScheduleListModel()
+export function Wl_Reception_Roster_ScheduleListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

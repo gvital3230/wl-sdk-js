@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Session_EnvironmentModel()
+export function Wl_Session_EnvironmentModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

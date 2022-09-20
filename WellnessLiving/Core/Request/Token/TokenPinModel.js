@@ -7,7 +7,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Request_Token_TokenPinModel()
+export function Core_Request_Token_TokenPinModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

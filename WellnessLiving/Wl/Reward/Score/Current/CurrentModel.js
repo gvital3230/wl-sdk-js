@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Reward_Score_Current_CurrentModel()
+export function Wl_Reward_Score_Current_CurrentModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

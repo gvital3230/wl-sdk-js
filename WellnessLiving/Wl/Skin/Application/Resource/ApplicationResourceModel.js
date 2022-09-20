@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Skin_Application_Resource_ApplicationResourceModel()
+export function Wl_Skin_Application_Resource_ApplicationResourceModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

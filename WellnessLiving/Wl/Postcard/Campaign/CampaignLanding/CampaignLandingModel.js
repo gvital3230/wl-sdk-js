@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Postcard_Campaign_CampaignLanding_CampaignLandingModel()
+export function Wl_Postcard_Campaign_CampaignLanding_CampaignLandingModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

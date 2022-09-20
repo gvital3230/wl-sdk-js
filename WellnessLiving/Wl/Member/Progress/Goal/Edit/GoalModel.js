@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Member_Progress_Goal_Edit_GoalModel()
+export function Wl_Member_Progress_Goal_Edit_GoalModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

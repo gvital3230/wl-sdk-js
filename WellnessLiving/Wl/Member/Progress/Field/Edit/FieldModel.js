@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Member_Progress_Field_Edit_FieldModel()
+export function Wl_Member_Progress_Field_Edit_FieldModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

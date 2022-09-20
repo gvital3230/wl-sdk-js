@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Integration_Zoom_ConnectionModel()
+export function Wl_Integration_Zoom_ConnectionModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

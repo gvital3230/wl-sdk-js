@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Purchase_Staff_PurchaseStaffCommissionModel()
+export function Wl_Purchase_Staff_PurchaseStaffCommissionModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Login_Agree_AgreeModel()
+export function Wl_Login_Agree_AgreeModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

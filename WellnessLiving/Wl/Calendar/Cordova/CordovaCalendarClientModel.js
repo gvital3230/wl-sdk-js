@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Calendar_Cordova_CordovaCalendarClientModel()
+export function Wl_Calendar_Cordova_CordovaCalendarClientModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

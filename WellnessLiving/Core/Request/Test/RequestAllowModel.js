@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Request_Test_RequestAllowModel()
+export function Core_Request_Test_RequestAllowModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

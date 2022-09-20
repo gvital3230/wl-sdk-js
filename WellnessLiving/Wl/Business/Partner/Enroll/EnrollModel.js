@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Partner_Enroll_EnrollModel()
+export function Wl_Business_Partner_Enroll_EnrollModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

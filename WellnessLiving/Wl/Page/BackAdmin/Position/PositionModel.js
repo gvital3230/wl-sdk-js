@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Page_BackAdmin_Position_PositionModel()
+export function Wl_Page_BackAdmin_Position_PositionModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

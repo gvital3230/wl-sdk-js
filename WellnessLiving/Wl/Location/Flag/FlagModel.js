@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Location_Flag_FlagModel()
+export function Wl_Location_Flag_FlagModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

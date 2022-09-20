@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Locale_Message_InlineEditor_SaveModel()
+export function Core_Locale_Message_InlineEditor_SaveModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

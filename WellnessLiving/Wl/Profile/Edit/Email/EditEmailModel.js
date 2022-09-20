@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Edit_Email_EditEmailModel()
+export function Wl_Profile_Edit_Email_EditEmailModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

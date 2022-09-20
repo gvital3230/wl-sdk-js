@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Promotion_Table_ActivatorModel()
+export function Wl_Promotion_Table_ActivatorModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

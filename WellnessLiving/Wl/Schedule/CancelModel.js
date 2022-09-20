@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Schedule_CancelModel()
+export function Wl_Schedule_CancelModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

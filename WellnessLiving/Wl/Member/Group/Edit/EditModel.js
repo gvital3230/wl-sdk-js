@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Member_Group_Edit_EditModel()
+export function Wl_Member_Group_Edit_EditModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

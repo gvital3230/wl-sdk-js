@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Promotion_Edit_Region_RegionListModel()
+export function Wl_Promotion_Edit_Region_RegionListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

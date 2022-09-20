@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Event_EventListModel()
+export function Wl_Event_EventListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Visit_Note_Edit_EditModel()
+export function Wl_Visit_Note_Edit_EditModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Member_Group_User_UserUpdateModel()
+export function Wl_Member_Group_User_UserUpdateModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

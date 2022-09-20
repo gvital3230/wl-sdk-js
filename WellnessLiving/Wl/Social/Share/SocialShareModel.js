@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Social_Share_SocialShareModel()
+export function Wl_Social_Share_SocialShareModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

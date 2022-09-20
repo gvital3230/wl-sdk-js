@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Rank_ProfileRankModel()
+export function Wl_Profile_Rank_ProfileRankModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

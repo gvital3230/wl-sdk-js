@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Partner_Dashboard_DashboardModel()
+export function Wl_Business_Partner_Dashboard_DashboardModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -10,7 +10,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Request_Api_KeySecretModel()
+export function Core_Request_Api_KeySecretModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

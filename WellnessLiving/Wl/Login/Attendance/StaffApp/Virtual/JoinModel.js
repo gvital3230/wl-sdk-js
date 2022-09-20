@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Login_Attendance_StaffApp_Virtual_JoinModel()
+export function Wl_Login_Attendance_StaffApp_Virtual_JoinModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

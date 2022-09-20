@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Pay_Form_EnvironmentModel()
+export function Wl_Pay_Form_EnvironmentModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

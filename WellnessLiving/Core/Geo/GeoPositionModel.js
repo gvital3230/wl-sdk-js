@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Geo_GeoPositionModel()
+export function Core_Geo_GeoPositionModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

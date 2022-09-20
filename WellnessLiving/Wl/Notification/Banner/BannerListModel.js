@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Notification_Banner_BannerListModel()
+export function Wl_Notification_Banner_BannerListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

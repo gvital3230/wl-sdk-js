@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Staff_IpRestriction_IpRestrictionModel()
+export function Wl_Staff_IpRestriction_IpRestrictionModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Debug_ErrorModel()
+export function Core_Debug_ErrorModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

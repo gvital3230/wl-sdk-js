@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Appointment_View_LinkJoinModel()
+export function Wl_Appointment_View_LinkJoinModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

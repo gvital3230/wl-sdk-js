@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Search_Template_Menu_MenuModel()
+export function Wl_Search_Template_Menu_MenuModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

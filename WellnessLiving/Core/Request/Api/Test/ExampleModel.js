@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Request_Api_Test_ExampleModel()
+export function Core_Request_Api_Test_ExampleModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

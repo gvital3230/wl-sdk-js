@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Report_Favorite_ReportFavoriteModel()
+export function Wl_Report_Favorite_ReportFavoriteModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

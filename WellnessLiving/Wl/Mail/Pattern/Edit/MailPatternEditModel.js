@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Mail_Pattern_Edit_MailPatternEditModel()
+export function Wl_Mail_Pattern_Edit_MailPatternEditModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

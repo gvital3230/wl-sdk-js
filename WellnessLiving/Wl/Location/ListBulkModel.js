@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Location_ListBulkModel()
+export function Wl_Location_ListBulkModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

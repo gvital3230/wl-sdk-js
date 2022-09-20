@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Google_Booking_BatchAvailabilityLookupModel()
+export function Wl_Google_Booking_BatchAvailabilityLookupModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -3,7 +3,7 @@
  *
  * @constructor
  */
-function WlSdk_AuthorizationSignature()
+export function WlSdk_AuthorizationSignature()
 {
   /**
    * List of request fields reduced to 1-level array.

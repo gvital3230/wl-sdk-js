@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Report_Background_GenerateReportModel()
+export function Wl_Report_Background_GenerateReportModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

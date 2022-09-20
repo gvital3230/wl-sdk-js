@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Virtual_VirtualScheduleModel()
+export function Wl_Virtual_VirtualScheduleModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

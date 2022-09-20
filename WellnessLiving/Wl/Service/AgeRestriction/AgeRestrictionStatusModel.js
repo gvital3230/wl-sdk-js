@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Service_AgeRestriction_AgeRestrictionStatusModel()
+export function Wl_Service_AgeRestriction_AgeRestrictionStatusModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

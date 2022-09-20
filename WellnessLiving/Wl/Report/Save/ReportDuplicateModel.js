@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Report_Save_ReportDuplicateModel()
+export function Wl_Report_Save_ReportDuplicateModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Sms_TwoWaySms_Index_UpgradeModel()
+export function Wl_Business_Sms_TwoWaySms_Index_UpgradeModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

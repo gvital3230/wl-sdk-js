@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Pay_Processor_CyberSource_CsPaEnrollmentModel()
+export function Wl_Pay_Processor_CyberSource_CsPaEnrollmentModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

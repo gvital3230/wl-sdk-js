@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Activity_ListModel()
+export function Wl_Profile_Activity_ListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

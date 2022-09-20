@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Skin_ScheduleStandard_ScheduleStandardModel()
+export function Wl_Skin_ScheduleStandard_ScheduleStandardModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

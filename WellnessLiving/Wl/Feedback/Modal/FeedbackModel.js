@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Feedback_Modal_FeedbackModel()
+export function Wl_Feedback_Modal_FeedbackModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Login_Promotion_PromotionPayCancelModel()
+export function Wl_Login_Promotion_PromotionPayCancelModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

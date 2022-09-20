@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Catalog_Cart_CheckCurrentStockModel()
+export function Wl_Catalog_Cart_CheckCurrentStockModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

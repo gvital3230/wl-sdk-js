@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Async_QueueServer_QueueServerListModel()
+export function Core_Async_QueueServer_QueueServerListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

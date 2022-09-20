@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Edit_EditByTokenModel()
+export function Wl_Profile_Edit_EditByTokenModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

@@ -13,7 +13,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Schedule_ScheduleModel()
+export function Wl_Schedule_ScheduleModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

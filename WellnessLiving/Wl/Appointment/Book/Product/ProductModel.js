@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Appointment_Book_Product_ProductModel()
+export function Wl_Appointment_Book_Product_ProductModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

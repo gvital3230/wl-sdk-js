@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Select_BusinessSelectModel()
+export function Wl_Business_Select_BusinessSelectModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

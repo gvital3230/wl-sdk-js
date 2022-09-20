@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Franchise_Location_BusinessFranchiseLocationModel()
+export function Wl_Business_Franchise_Location_BusinessFranchiseLocationModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

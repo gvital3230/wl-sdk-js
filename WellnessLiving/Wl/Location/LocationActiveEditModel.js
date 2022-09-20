@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Location_LocationActiveEditModel()
+export function Wl_Location_LocationActiveEditModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

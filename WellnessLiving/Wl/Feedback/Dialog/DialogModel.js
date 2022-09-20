@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Feedback_Dialog_DialogModel()
+export function Wl_Feedback_Dialog_DialogModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

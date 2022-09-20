@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Report_Generator_FilterInfoModel()
+export function Wl_Report_Generator_FilterInfoModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

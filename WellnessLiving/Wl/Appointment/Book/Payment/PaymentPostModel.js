@@ -7,7 +7,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Appointment_Book_Payment_PaymentPostModel()
+export function Wl_Appointment_Book_Payment_PaymentPostModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

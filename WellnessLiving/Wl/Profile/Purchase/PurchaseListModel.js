@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Profile_Purchase_PurchaseListModel()
+export function Wl_Profile_Purchase_PurchaseListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

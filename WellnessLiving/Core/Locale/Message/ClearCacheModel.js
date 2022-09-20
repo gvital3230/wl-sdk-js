@@ -8,7 +8,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Locale_Message_ClearCacheModel()
+export function Core_Locale_Message_ClearCacheModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

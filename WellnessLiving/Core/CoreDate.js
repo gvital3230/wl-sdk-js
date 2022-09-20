@@ -3,7 +3,7 @@
  *
  * @constructor
  */
-function WlSdk_Core_Date()
+export function WlSdk_Core_Date()
 {
 }
 

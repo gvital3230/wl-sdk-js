@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Sms_Unread_SmsUnreadCountModel()
+export function Wl_Business_Sms_Unread_SmsUnreadCountModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

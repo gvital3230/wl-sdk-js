@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Purchase_Receipt_PurchaseReceiptModel()
+export function Wl_Purchase_Receipt_PurchaseReceiptModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

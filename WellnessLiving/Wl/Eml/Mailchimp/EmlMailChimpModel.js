@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Eml_Mailchimp_EmlMailChimpModel()
+export function Wl_Eml_Mailchimp_EmlMailChimpModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

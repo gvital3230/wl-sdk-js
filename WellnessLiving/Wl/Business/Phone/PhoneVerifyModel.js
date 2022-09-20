@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Phone_PhoneVerifyModel()
+export function Wl_Business_Phone_PhoneVerifyModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

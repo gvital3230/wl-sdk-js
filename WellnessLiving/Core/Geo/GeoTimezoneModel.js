@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Core_Geo_GeoTimezoneModel()
+export function Core_Geo_GeoTimezoneModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

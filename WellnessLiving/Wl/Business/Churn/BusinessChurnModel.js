@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Business_Churn_BusinessChurnModel()
+export function Wl_Business_Churn_BusinessChurnModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

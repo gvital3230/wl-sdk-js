@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Appointment_Wizard_Recurring_RecurringListModel()
+export function Wl_Appointment_Wizard_Recurring_RecurringListModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

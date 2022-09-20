@@ -11,7 +11,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Report_Dashboard_ReportDashboardModel()
+export function Wl_Report_Dashboard_ReportDashboardModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

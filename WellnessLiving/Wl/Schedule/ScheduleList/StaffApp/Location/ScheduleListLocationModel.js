@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Schedule_ScheduleList_StaffApp_Location_ScheduleListLocationModel()
+export function Wl_Schedule_ScheduleList_StaffApp_Location_ScheduleListLocationModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

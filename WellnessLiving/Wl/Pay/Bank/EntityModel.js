@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Pay_Bank_EntityModel()
+export function Wl_Pay_Bank_EntityModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

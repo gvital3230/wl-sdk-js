@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Reward_Action_ActionWriteModel()
+export function Wl_Reward_Action_ActionWriteModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

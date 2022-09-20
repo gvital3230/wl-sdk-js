@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Report_AccessModel()
+export function Wl_Report_AccessModel()
 {
   WlSdk_ModelAbstract.apply(this);
 

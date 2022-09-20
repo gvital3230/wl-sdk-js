@@ -6,7 +6,7 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
-function Wl_Report_Dashboard_Menu_MenuModel()
+export function Wl_Report_Dashboard_Menu_MenuModel()
 {
   WlSdk_ModelAbstract.apply(this);
 
