@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Book_Repeat_Panel_PanelModel()
 {
   WlSdk_ModelAbstract.apply(this);

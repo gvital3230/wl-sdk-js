@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../ModelAbstract";
+
 export function Core_Prg_Editor_SqlKeywordModel()
 {
   WlSdk_ModelAbstract.apply(this);
@@ -28,7 +30,7 @@ export function Core_Prg_Editor_SqlKeywordModel()
    * @typedef {{}} Core_Prg_Editor_SqlKeywordModel_a_table
    * @property {string} s_type Type of the column.
    * @property {string} [s_table] Name of a table in which this column is a primary key.
-   * 
+   *
    *   Not specified if this column is not a primary key.
    */
 

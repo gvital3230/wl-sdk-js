@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Core_Locale_Message_InlineEditor_SaveModel()
 {
   WlSdk_ModelAbstract.apply(this);
@@ -15,10 +17,10 @@ export function Core_Locale_Message_InlineEditor_SaveModel()
    * @property {{}} a_translate Translations to save. Key is language ID (one of {@link \Core\Locale\Language\LocaleLanguageSid} constants),
    *   value is either translation, or <tt>null</tt> to remove translation.
    * @property {*} is_js Whether this message is originated from JavaScript code.
-   * 
+   *
    *   Setting this flag leads to that this source and all translations are added to
    *   {@link \Core\Locale\Message\InlineEditor\InlineSql}.
-   * 
+   *
    *   This flag is only considered if {@link \Core\Locale\Message\InlineEditor\SaveApi::FORWARD_GLOBAL} is set to
    *   <tt>true</tt>.
    * @property {string} text_source Source of translated message.

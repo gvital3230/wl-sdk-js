@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../ModelAbstract";
+
 export function Core_Google_LoginLinkModel()
 {
   WlSdk_ModelAbstract.apply(this);

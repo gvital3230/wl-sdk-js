@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Pay_Processor_CyberSource_CsPaSetupModel()
 {
   WlSdk_ModelAbstract.apply(this);

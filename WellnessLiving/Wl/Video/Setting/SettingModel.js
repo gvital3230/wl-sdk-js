@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../ModelAbstract";
+
 export function Wl_Video_Setting_SettingModel()
 {
   WlSdk_ModelAbstract.apply(this);

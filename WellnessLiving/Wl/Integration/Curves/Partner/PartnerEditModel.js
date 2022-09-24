@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Integration_Curves_Partner_PartnerEditModel()
 {
   WlSdk_ModelAbstract.apply(this);

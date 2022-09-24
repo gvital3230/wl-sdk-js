@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../ModelAbstract";
+
 export function Wl_Staff_IpRestriction_IpRestrictionModel()
 {
   WlSdk_ModelAbstract.apply(this);
@@ -26,7 +28,7 @@ export function Wl_Staff_IpRestriction_IpRestrictionModel()
    * <dl>
    *   <dt>int <tt>id_privilege_role</tt></dt>
    *   <dd>ID of a default system role from {@link \RsPrivilegeRoleSid} that this IP restriction applies to.</dd>
-   * 
+   *
    *   <dt>string <tt>k_business_role</tt></dt>
    *   <dd>Key of a custom business role this IP restriction applies to.</dd>
    * </dl>

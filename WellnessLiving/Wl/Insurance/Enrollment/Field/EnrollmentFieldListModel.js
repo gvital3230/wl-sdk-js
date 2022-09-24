@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Insurance_Enrollment_Field_EnrollmentFieldListModel()
 {
   WlSdk_ModelAbstract.apply(this);
@@ -78,28 +80,28 @@ export function Wl_Insurance_Enrollment_Field_EnrollmentFieldListModel()
    *      <dd>Type of text field.</dd>
    *    </dl>
    *  </dd>
-   * 
+   *
    *  <dt>int <tt>i_length</tt></dt>
    *  <dd>Length of field.</dd>
-   * 
+   *
    *  <dt>bool <tt>is_disable</tt></dt>
    *  <dd>Whether this field is disabled.</dd>
-   * 
+   *
    *  <dt>bool <tt>is_required</tt></dt>
    *  <dd>Whether this field is required.</dd>
-   * 
+   *
    *  <dt>string <tt>k_field</tt></dt>
    *  <dd>Field key.</dd>
-   * 
+   *
    *  <dt>string <tt>s_regular</tt></dt>
    *  <dd>Regular expression validation for field.</dd>
-   * 
+   *
    *  <dt>string <tt>text_display_name</tt></dt>
    *  <dd>Label text for field.</dd>
-   * 
+   *
    *  <dt>string <tt>text_error_message</tt></dt>
    *  <dd>Error message if value in field is not valid.</dd>
-   * 
+   *
    *  <dt>string <tt>text_field_name</tt></dt>
    *  <dd>Name of field.</dd>
    *    </dl>

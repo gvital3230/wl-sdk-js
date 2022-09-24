@@ -9,6 +9,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../ModelAbstract";
+
 export function Core_Sms_Response_ResponseTwilioErrorModel()
 {
   WlSdk_ModelAbstract.apply(this);

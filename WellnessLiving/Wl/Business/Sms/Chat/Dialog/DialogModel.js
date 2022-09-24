@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../../ModelAbstract";
+
 export function Wl_Business_Sms_Chat_Dialog_DialogModel()
 {
   WlSdk_ModelAbstract.apply(this);

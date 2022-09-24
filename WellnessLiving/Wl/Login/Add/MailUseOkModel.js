@@ -7,6 +7,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../ModelAbstract";
+
 export function Wl_Login_Add_MailUseOkModel()
 {
   WlSdk_ModelAbstract.apply(this);

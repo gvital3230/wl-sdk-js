@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../ModelAbstract";
+
 export function Wl_Location_LocationOptionModel()
 {
   WlSdk_ModelAbstract.apply(this);

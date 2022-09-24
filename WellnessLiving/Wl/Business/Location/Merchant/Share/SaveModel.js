@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../../ModelAbstract";
+
 export function Wl_Business_Location_Merchant_Share_SaveModel()
 {
   WlSdk_ModelAbstract.apply(this);

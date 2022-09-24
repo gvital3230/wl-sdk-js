@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Franchise_Transfer_Edit_TransferEditModel()
 {
   WlSdk_ModelAbstract.apply(this);

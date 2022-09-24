@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../ModelAbstract";
+
 export function Wl_Catalog_CatalogList_ElementModel()
 {
   WlSdk_ModelAbstract.apply(this);
@@ -27,7 +29,7 @@ export function Wl_Catalog_CatalogList_ElementModel()
    * @typedef {{}} Wl_Catalog_CatalogList_ElementModel_a_discount_code
    * @property {string} f_amount Fixed amount of the discount.
    * @property {number} f_percent Percentage amount of the discount.
-   * @property {number} i_limit 
+   * @property {number} i_limit
    * @property {string} k_discount_code Discount code key.
    * @property {string} s_discount_code Discount code value.
    */

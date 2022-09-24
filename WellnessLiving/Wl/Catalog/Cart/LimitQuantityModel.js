@@ -7,6 +7,8 @@
  * @constructor
  * @see Wl\Catalog\Cart\LimitQuantityApi
  */
+import {WlSdk_ModelAbstract} from "../../../ModelAbstract";
+
 export function Wl_Catalog_Cart_LimitQuantityModel()
 {
   WlSdk_ModelAbstract.apply(this);

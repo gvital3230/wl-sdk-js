@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../ModelAbstract";
+
 function Social_Facebook_Login_LoginModel()
 {
   WlSdk_ModelAbstract.apply(this);

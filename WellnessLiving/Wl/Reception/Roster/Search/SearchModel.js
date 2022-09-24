@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Reception_Roster_Search_SearchModel()
 {
   WlSdk_ModelAbstract.apply(this);

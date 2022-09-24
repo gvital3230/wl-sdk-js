@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Core_Locale_Message_InlineEditor_MessageDataModel()
 {
   WlSdk_ModelAbstract.apply(this);

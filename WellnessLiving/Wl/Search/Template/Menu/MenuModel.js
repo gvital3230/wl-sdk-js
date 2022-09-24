@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Search_Template_Menu_MenuModel()
 {
   WlSdk_ModelAbstract.apply(this);

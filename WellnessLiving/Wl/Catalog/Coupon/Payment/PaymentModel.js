@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Catalog_Coupon_Payment_PaymentModel()
 {
   WlSdk_ModelAbstract.apply(this);

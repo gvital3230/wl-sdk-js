@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Business_AuthorizeSupport_Request_RequestModel()
 {
   WlSdk_ModelAbstract.apply(this);

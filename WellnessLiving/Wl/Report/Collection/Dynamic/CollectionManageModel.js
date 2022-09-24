@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Report_Collection_Dynamic_CollectionManageModel()
 {
   WlSdk_ModelAbstract.apply(this);

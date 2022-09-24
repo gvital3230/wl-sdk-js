@@ -7,6 +7,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../ModelAbstract";
+
 export function Wl_Business_Franchise_FranchiseGroupModel()
 {
   WlSdk_ModelAbstract.apply(this);

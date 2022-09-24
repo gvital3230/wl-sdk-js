@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../ModelAbstract";
+
 export function Wl_Location_TimeZone_TimeZoneModel()
 {
   WlSdk_ModelAbstract.apply(this);

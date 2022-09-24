@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Catalog_StaffApp_CatalogCommission_CatalogCommissionModel()
 {
   WlSdk_ModelAbstract.apply(this);

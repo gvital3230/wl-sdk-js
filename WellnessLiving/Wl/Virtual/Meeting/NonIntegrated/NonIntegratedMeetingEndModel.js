@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Virtual_Meeting_NonIntegrated_NonIntegratedMeetingEndModel()
 {
   WlSdk_ModelAbstract.apply(this);

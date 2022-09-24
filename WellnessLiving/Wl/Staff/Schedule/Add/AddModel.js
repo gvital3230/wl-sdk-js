@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Staff_Schedule_Add_AddModel()
 {
   WlSdk_ModelAbstract.apply(this);

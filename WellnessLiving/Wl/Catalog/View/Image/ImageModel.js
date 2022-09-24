@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Catalog_View_Image_ImageModel()
 {
   WlSdk_ModelAbstract.apply(this);

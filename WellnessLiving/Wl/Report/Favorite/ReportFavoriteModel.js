@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../ModelAbstract";
+
 export function Wl_Report_Favorite_ReportFavoriteModel()
 {
   WlSdk_ModelAbstract.apply(this);

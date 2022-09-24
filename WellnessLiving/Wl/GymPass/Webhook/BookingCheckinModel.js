@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../ModelAbstract";
+
 export function Wl_GymPass_Webhook_BookingCheckinModel()
 {
   WlSdk_ModelAbstract.apply(this);

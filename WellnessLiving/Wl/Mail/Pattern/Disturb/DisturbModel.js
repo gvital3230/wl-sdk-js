@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Mail_Pattern_Disturb_DisturbModel()
 {
   WlSdk_ModelAbstract.apply(this);

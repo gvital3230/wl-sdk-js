@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Login_Promotion_Share_LoginPromotionShareModel()
 {
   WlSdk_ModelAbstract.apply(this);

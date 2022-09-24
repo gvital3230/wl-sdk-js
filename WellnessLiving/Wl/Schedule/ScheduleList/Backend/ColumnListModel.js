@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Schedule_ScheduleList_Backend_ColumnListModel()
 {
   WlSdk_ModelAbstract.apply(this);

@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Business_Account_Subscription_PriceOverrideModel()
 {
   WlSdk_ModelAbstract.apply(this);

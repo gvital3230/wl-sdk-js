@@ -9,6 +9,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Appointment_Book_Service_ServiceList52Model()
 {
   WlSdk_ModelAbstract.apply(this);

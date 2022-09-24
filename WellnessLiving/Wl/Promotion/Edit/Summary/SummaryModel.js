@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Promotion_Edit_Summary_SummaryModel()
 {
   WlSdk_ModelAbstract.apply(this);

@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../ModelAbstract";
+
 export function Core_Geo_Region_RegionModel()
 {
   WlSdk_ModelAbstract.apply(this);

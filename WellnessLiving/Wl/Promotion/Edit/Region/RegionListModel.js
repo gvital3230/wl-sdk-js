@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Promotion_Edit_Region_RegionListModel()
 {
   WlSdk_ModelAbstract.apply(this);

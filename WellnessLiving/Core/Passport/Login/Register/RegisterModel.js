@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Core_Passport_Login_Register_RegisterModel()
 {
   WlSdk_ModelAbstract.apply(this);
@@ -13,11 +15,11 @@ export function Core_Passport_Login_Register_RegisterModel()
   /**
    * @typedef {{}} Core_Passport_Login_Register_RegisterModel_a_data
    * @property {string} [k_business] Key of the business for wellnessliving project to register user in.
-   * 
+   *
    * Behavior is different for different applications. If application is connected to the certain business, this
    * property can be always empty - all clients will be registered in the connected business. If business is set
    * for such application and is different from the business from application settings, error occurs.
-   * 
+   *
    * If application is not connected to the business, any business key can be set. This does not require any special
    * privileges, as registration is a public available action.
    */

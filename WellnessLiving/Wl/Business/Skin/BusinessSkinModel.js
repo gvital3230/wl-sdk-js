@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../ModelAbstract";
+
 export function Wl_Business_Skin_BusinessSkinModel()
 {
   WlSdk_ModelAbstract.apply(this);

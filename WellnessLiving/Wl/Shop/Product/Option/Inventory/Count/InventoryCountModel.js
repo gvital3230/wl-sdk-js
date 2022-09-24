@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../../../ModelAbstract";
+
 export function Wl_Shop_Product_Option_Inventory_Count_InventoryCountModel()
 {
   WlSdk_ModelAbstract.apply(this);

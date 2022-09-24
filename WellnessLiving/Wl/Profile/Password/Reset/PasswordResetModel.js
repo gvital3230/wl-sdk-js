@@ -7,6 +7,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Profile_Password_Reset_PasswordResetModel()
 {
   WlSdk_ModelAbstract.apply(this);

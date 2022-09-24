@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../ModelAbstract";
+
 function Social_Apple_Login_AppleLoginModel()
 {
   WlSdk_ModelAbstract.apply(this);

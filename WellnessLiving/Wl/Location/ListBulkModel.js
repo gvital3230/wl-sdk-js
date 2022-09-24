@@ -8,6 +8,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../ModelAbstract";
+
 export function Wl_Location_ListBulkModel()
 {
   WlSdk_ModelAbstract.apply(this);

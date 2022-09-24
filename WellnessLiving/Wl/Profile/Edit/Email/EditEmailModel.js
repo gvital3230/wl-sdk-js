@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../../ModelAbstract";
+
 export function Wl_Profile_Edit_Email_EditEmailModel()
 {
   WlSdk_ModelAbstract.apply(this);

@@ -6,6 +6,8 @@
  * @augments WlSdk_ModelAbstract
  * @constructor
  */
+import {WlSdk_ModelAbstract} from "../../../ModelAbstract";
+
 export function Wl_Page_Backend_BackendConfigModel()
 {
   WlSdk_ModelAbstract.apply(this);
