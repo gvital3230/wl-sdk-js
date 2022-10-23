@@ -7,7 +7,7 @@
  * @throws WlSdk_AssertException In a case class name can not be defined.
  * @see http://javascript.ru/php/get_class
  */
-function get_class(o_object)
+export function get_class(o_object)
 {
   var a_match;
 

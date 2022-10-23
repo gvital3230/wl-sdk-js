@@ -6,6 +6,13 @@
  * @mixin
  * @constructor
  */
+import {WlSdk_AssertException} from "./AssertException";
+import {get_class} from "./Core/Js/Php/get_class";
+import {WlSdk_Core_Url} from "./Core/CoreUrl";
+import {WlSdk_AuthorizationSignature} from "./AuthorizationSignature";
+import {WlSdk_Config_MixinAbstract as WlSdk_Config_Mixin}  from "./Config/ConfigAbstractMixin";
+import {WlSdk_SyncError} from "./SyncError";
+
 export function WlSdk_ModelAbstract()
 {
   /**
@@ -143,7 +150,6 @@ WlSdk_ModelAbstract.a_successor = [];
 /**
  * Performs a request to server.
  *
- * @param {{
  *   contentType: string,
  *   data: string,
  *   dt_request: string,
@@ -155,17 +161,18 @@ WlSdk_ModelAbstract.a_successor = [];
  * }} a_config A set of key/value pairs that configure the request.
  * @return {WlSdk_Deferred_Promise} Promise that request will be performed.
  * @private
+ * @param a_config
  */
 WlSdk_ModelAbstract.prototype._ajax = function(a_config)
 {
-  var o_deferred = WlSdk_Config_Mixin.configDeferredCreate();
+  let o_deferred = WlSdk_Config_Mixin.configDeferredCreate();
 
-  var o_signature = new WlSdk_AuthorizationSignature();
-  var o_array_promise = o_signature.signatureArray(a_config['data']);
+  let o_signature = new WlSdk_AuthorizationSignature();
+  let o_array_promise = o_signature.signatureArray(a_config['data']);
   o_array_promise.done(function()
   {
-    var s_body;
-    var url = a_config['url'];
+    let s_body;
+    let url = a_config['url'];
 
     if(a_config['data'] instanceof FormData)
     {
@@ -173,13 +180,13 @@ WlSdk_ModelAbstract.prototype._ajax = function(a_config)
     }
     else
     {
-      var a_parameter = [];
-      for(var s_field in o_signature.a_array)
+      let a_parameter = [];
+      for(let s_field in o_signature.a_array)
       {
         if(!o_signature.a_array.hasOwnProperty(s_field))
           continue;
 
-        var x_value = o_signature.a_array[s_field];
+        let x_value = o_signature.a_array[s_field];
 
         if(x_value===null)
           continue; // null means do not include this value to request.
@@ -190,7 +197,7 @@ WlSdk_ModelAbstract.prototype._ajax = function(a_config)
         }
         else
         {
-          var x_parameter = WlSdk_Core_Url.encode(s_field,x_value);
+          let x_parameter = WlSdk_Core_Url.encode(s_field,x_value);
           WlSdk_AssertException.assertTrue(typeof x_parameter==='string',{
             's_field': s_field,
             's_type': typeof x_parameter,
@@ -213,10 +220,10 @@ WlSdk_ModelAbstract.prototype._ajax = function(a_config)
       }
     }
 
-    var o_header = new Headers({});
+    let o_header = new Headers({});
     if(a_config['contentType'])
       o_header.append('Content-Type',a_config['contentType']);
-    for(var s_header in a_config['headers'])
+    for(let s_header in a_config['headers'])
     {
       if(a_config['headers'].hasOwnProperty(s_header))
         o_header.append(s_header,a_config['headers'][s_header]);
@@ -336,7 +343,7 @@ WlSdk_ModelAbstract.prototype._formDataFill = function(a_signature,o_form_data,a
  */
 WlSdk_ModelAbstract.prototype.apiUrl = function()
 {
-  return WlSdk_Config_MixinAbstract.apiUrl() + this.resource();
+  return WlSdk_Config_Mixin.apiUrl() + this.resource();
 };
 
 /**

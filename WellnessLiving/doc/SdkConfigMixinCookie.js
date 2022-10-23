@@ -4,6 +4,9 @@
  * @augments WlSdk_Config_MixinAbstract
  * @mixes WlSdk_Config_MixinAbstract
  */
+import {WlSdk_Config_MixinAbstract} from "../Config/ConfigAbstractMixin";
+import {WlSdk_Config_ConfigRegionSid} from "../Config/ConfigRegionSid";
+
 export function WlSdk_Config_Mixin()
 {
 }

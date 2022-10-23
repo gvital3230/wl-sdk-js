@@ -1,14 +1,33 @@
 // @after Core/Request/Api/Sdk/AssertException.js
 // @after Config/ConfigRegionSid.js
 
+import {WlSdk_AssertException} from "../AssertException";
+import {WlSdk_Config_Mixin} from "../doc/SdkConfigMixinLocal";
+import {WlSdk_Config_ConfigRegionSid} from "./ConfigRegionSid";
+import {WlSdk_ModelAbstract} from "../ModelAbstract";
+import {WlSdk_Core_Url} from "../Core/CoreUrl";
+import {WlSdk_Deferred} from "../Deferred/SdkDeferred";
+
 /**
  * Configurations for SDK.
  *
  * @mixin
  */
-export function WlSdk_Config_MixinAbstract()
-{
-  // Empty constructor.
+export class WlSdk_Config_MixinAbstract {
+    /**
+     * Extends the class to a child.
+     *
+     * @param {WlSdk_Config_MixinAbstract} o_child Child class to be extended.
+     */
+    extend(o_child) {
+        for (let s_method in this) {
+            if (!this.hasOwnProperty(s_method))
+                continue;
+            if (o_child.hasOwnProperty(s_method))
+                continue;
+            o_child[s_method] = this[s_method];
+        }
+    }
 }
 
 /**
@@ -42,8 +61,8 @@ WlSdk_Config_MixinAbstract.ID_REGION = 0;
  * @type {Object<number: string>}
  */
 WlSdk_Config_MixinAbstract.REGION_URL = {
-  1 : 'https://staging.wellnessliving.com/', // WlSdk_Config_ConfigRegionSid.US_EAST_1
-  2 : 'https://demo.wellnessliving.com/' // WlSdk_Config_ConfigRegionSid.AP_SOUTHEAST_2
+    1: 'https://staging.wellnessliving.com/', // WlSdk_Config_ConfigRegionSid.US_EAST_1
+    2: 'https://demo.wellnessliving.com/' // WlSdk_Config_ConfigRegionSid.AP_SOUTHEAST_2
 };
 
 /**
@@ -123,20 +142,19 @@ WlSdk_Config_MixinAbstract.o_deferred_credentials = null;
  *
  * @return {string} URL to access API endpoint.
  */
-WlSdk_Config_MixinAbstract.apiUrl = function()
-{
-  var id_region = WlSdk_Config_Mixin.ID_REGION;
-  WlSdk_AssertException.notEmpty(WlSdk_Config_ConfigRegionSid.regionExists(id_region),{
-    'id_region': id_region,
-    'text_message': 'Region id is not exist.'
-  });
+WlSdk_Config_MixinAbstract.apiUrl = function () {
+    var id_region = WlSdk_Config_Mixin.ID_REGION;
+    WlSdk_AssertException.notEmpty(WlSdk_Config_ConfigRegionSid.regionExists(id_region), {
+        'id_region': id_region,
+        'text_message': 'Region id is not exist.'
+    });
 
-  WlSdk_AssertException.notEmpty(WlSdk_Config_MixinAbstract.REGION_URL.hasOwnProperty(id_region),{
-    'id_region': id_region,
-    'text_message': 'The URL endpoint API is not set for the requested region id. Let the developers know about it.'
-  });
+    WlSdk_AssertException.notEmpty(WlSdk_Config_MixinAbstract.REGION_URL.hasOwnProperty(id_region), {
+        'id_region': id_region,
+        'text_message': 'The URL endpoint API is not set for the requested region id. Let the developers know about it.'
+    });
 
-  return WlSdk_Config_MixinAbstract.REGION_URL[id_region];
+    return WlSdk_Config_MixinAbstract.REGION_URL[id_region];
 };
 
 /**
@@ -145,101 +163,85 @@ WlSdk_Config_MixinAbstract.apiUrl = function()
  * @param {{}} a_config Request configuration.
  * @return {WlSdk_Deferred_Promise} Promise that will be resolved when credentials are loaded.
  */
-WlSdk_Config_MixinAbstract.configCredentialsLoad = function(a_config)
-{
-  if(this.SESSION==='cookie')
-  {
-    WlSdk_AssertException.notEmpty(this.CSRF_CODE,{
-      'text_message': 'Code for protection of CSRF is empty.'
+WlSdk_Config_MixinAbstract.configCredentialsLoad = function (a_config) {
+    if (this.SESSION === 'cookie') {
+        WlSdk_AssertException.notEmpty(this.CSRF_CODE, {
+            'text_message': 'Code for protection of CSRF is empty.'
+        });
+    }
+    WlSdk_AssertException.notEmpty(this.URL_CSRF, {
+        'text_message': 'URL of the page to load signature credentials is not configured.'
     });
-  }
-  WlSdk_AssertException.notEmpty(this.URL_CSRF,{
-    'text_message': 'URL of the page to load signature credentials is not configured.'
-  });
 
-  if(!empty(a_config['is_public'])||WlSdk_ModelAbstract.a_credentials)
-    return this.configDeferredCreate().resolve().promise();
+    if (!empty(a_config['is_public']) || WlSdk_ModelAbstract.a_credentials)
+        return this.configDeferredCreate().resolve().promise();
 
-  if(WlSdk_Config_MixinAbstract.o_deferred_credentials)
+    if (WlSdk_Config_MixinAbstract.o_deferred_credentials)
+        return WlSdk_Config_MixinAbstract.o_deferred_credentials.promise();
+
+    WlSdk_Config_MixinAbstract.o_deferred_credentials = this.configDeferredCreate('WlSdk_Config_MixinAbstract.configCredentialsLoad');
+
+    var o_this = this;
+
+    var o_promise_key_defer = o_this.configDeferredCreate();
+    if (this.SESSION === 'cookie') {
+        var o_key_session = new Core_Request_Api_KeySessionModel();
+        o_key_session.s_application = this.CONFIG_AUTHORIZE_ID;
+        o_key_session.s_csrf = this.CSRF_CODE;
+
+        o_key_session.request({
+            'is_public': true,
+            's_method': 'GET'
+        }).done(function () {
+            o_promise_key_defer.resolve(o_key_session.s_key).promise();
+        }).fail(function () {
+            o_promise_key_defer.reject();
+            WlSdk_Config_MixinAbstract.o_deferred_credentials.reject(o_key_session.errorGet());
+        });
+    } else {
+        WlSdk_Config_Mixin.csrfCode(this.sessionKey()).done(function (s_csrf) {
+            WlSdk_AssertException.notEmpty(s_csrf, {
+                'text_message': 'Code for protection of CSRF is empty.'
+            });
+            WlSdk_ModelAbstract.a_credentials = {
+                's_csrf': s_csrf
+            };
+            WlSdk_Config_MixinAbstract.o_deferred_credentials.resolve();
+        }).fail(function (data) {
+            o_promise_key_defer.reject();
+            WlSdk_Config_MixinAbstract.o_deferred_credentials.reject(data);
+        });
+        return WlSdk_Config_MixinAbstract.o_deferred_credentials.promise();
+    }
+
+    o_promise_key_defer.done(function (s_session_key) {
+        var url = o_this.URL_CSRF;
+        url = WlSdk_Core_Url.variable(url, {
+            's_csrf': o_this.CSRF_CODE,
+            's_key_session': s_session_key
+        });
+
+        fetch(url, {
+            'method': 'GET',
+            'mode': 'same-origin',
+            'cache': 'no-cache',
+            'credentials': 'include'
+        }).then(function (response) {
+            return response.json();
+        }).then(function (data) {
+            if (data['s_error']) {
+                WlSdk_Config_MixinAbstract.o_deferred_credentials.reject({'s_message': data['s_error']});
+            } else {
+                WlSdk_ModelAbstract.a_credentials = data;
+                WlSdk_Config_MixinAbstract.o_deferred_credentials.resolve();
+            }
+            WlSdk_Config_MixinAbstract.o_deferred_credentials = null;
+        }).catch(function (error) {
+            WlSdk_Config_MixinAbstract.o_deferred_credentials.reject({'s_message': error['s_error']});
+        });
+    });
+
     return WlSdk_Config_MixinAbstract.o_deferred_credentials.promise();
-
-  WlSdk_Config_MixinAbstract.o_deferred_credentials = this.configDeferredCreate('WlSdk_Config_MixinAbstract.configCredentialsLoad');
-
-  var o_this = this;
-
-  var o_promise_key_defer = o_this.configDeferredCreate();
-  if(this.SESSION==='cookie')
-  {
-    var o_key_session = new Core_Request_Api_KeySessionModel();
-    o_key_session.s_application = this.CONFIG_AUTHORIZE_ID;
-    o_key_session.s_csrf = this.CSRF_CODE;
-
-    o_key_session.request({
-      'is_public': true,
-      's_method': 'GET'
-    }).done(function()
-    {
-      o_promise_key_defer.resolve(o_key_session.s_key).promise();
-    }).fail(function()
-    {
-      o_promise_key_defer.reject();
-      WlSdk_Config_MixinAbstract.o_deferred_credentials.reject(o_key_session.errorGet());
-    });
-  }
-  else
-  {
-    WlSdk_Config_Mixin.csrfCode(this.sessionKey()).done(function(s_csrf)
-    {
-      WlSdk_AssertException.notEmpty(s_csrf,{
-        'text_message': 'Code for protection of CSRF is empty.'
-      });
-      WlSdk_ModelAbstract.a_credentials = {
-        's_csrf': s_csrf
-      };
-      WlSdk_Config_MixinAbstract.o_deferred_credentials.resolve();
-    }).fail(function(data)
-    {
-      o_promise_key_defer.reject();
-      WlSdk_Config_MixinAbstract.o_deferred_credentials.reject(data);
-    });
-    return WlSdk_Config_MixinAbstract.o_deferred_credentials.promise();
-  }
-
-  o_promise_key_defer.done(function(s_session_key)
-  {
-    var url = o_this.URL_CSRF;
-    url = WlSdk_Core_Url.variable(url,{
-      's_csrf': o_this.CSRF_CODE,
-      's_key_session': s_session_key
-    });
-
-    fetch(url,{
-      'method': 'GET',
-      'mode': 'same-origin',
-      'cache': 'no-cache',
-      'credentials': 'include'
-    }).then(function(response)
-    {
-      return response.json();
-    }).then(function(data)
-    {
-      if(data['s_error'])
-      {
-        WlSdk_Config_MixinAbstract.o_deferred_credentials.reject({'s_message': data['s_error']});
-      }
-      else
-      {
-        WlSdk_ModelAbstract.a_credentials = data;
-        WlSdk_Config_MixinAbstract.o_deferred_credentials.resolve();
-      }
-      WlSdk_Config_MixinAbstract.o_deferred_credentials = null;
-    }).catch(function(error)
-    {
-      WlSdk_Config_MixinAbstract.o_deferred_credentials.reject({'s_message': error['s_error']});
-    });
-  });
-
-  return WlSdk_Config_MixinAbstract.o_deferred_credentials.promise();
 };
 
 /**
@@ -247,9 +249,8 @@ WlSdk_Config_MixinAbstract.configCredentialsLoad = function(a_config)
  *
  * @return {string} CSRF code.
  */
-WlSdk_Config_MixinAbstract.configCsrf = function()
-{
-  return '';
+WlSdk_Config_MixinAbstract.configCsrf = function () {
+    return '';
 };
 
 // noinspection JSUnusedLocalSymbols
@@ -260,9 +261,8 @@ WlSdk_Config_MixinAbstract.configCsrf = function()
  * @param {string} [s_comment] Comment of object.
  * @return {WlSdk_Deferred} Deferred object.
  */
-WlSdk_Config_MixinAbstract.configDeferredCreate = function(s_where,s_comment)
-{
-  return new WlSdk_Deferred();
+WlSdk_Config_MixinAbstract.configDeferredCreate = function (s_where, s_comment) {
+    return new WlSdk_Deferred();
 };
 
 /**
@@ -273,9 +273,8 @@ WlSdk_Config_MixinAbstract.configDeferredCreate = function(s_where,s_comment)
  *
  * @return {WlSdk_Deferred_Promise} Always resolved promise.
  */
-WlSdk_Config_MixinAbstract.configPromiseResolved = function()
-{
-  return (new WlSdk_Deferred()).resolve().promise();
+WlSdk_Config_MixinAbstract.configPromiseResolved = function () {
+    return (new WlSdk_Deferred()).resolve().promise();
 }
 
 /**
@@ -285,9 +284,8 @@ WlSdk_Config_MixinAbstract.configPromiseResolved = function()
  * @return {WlSdk_Deferred_Promise} Promise that wil be resolved
  * when all deferred objects in the list are resolved.
  */
-WlSdk_Config_MixinAbstract.configPromiseWhen = function(a_defer)
-{
-  return WlSdk_Deferred.when(a_defer).promise();
+WlSdk_Config_MixinAbstract.configPromiseWhen = function (a_defer) {
+    return WlSdk_Deferred.when(a_defer).promise();
 };
 
 /**
@@ -295,9 +293,8 @@ WlSdk_Config_MixinAbstract.configPromiseWhen = function(a_defer)
  *
  * @param {*} x_log Text to be written.
  */
-WlSdk_Config_MixinAbstract.configTestLog = function(x_log)
-{
-  // Do nothing by default.
+WlSdk_Config_MixinAbstract.configTestLog = function (x_log) {
+    // Do nothing by default.
 };
 
 /**
@@ -306,9 +303,8 @@ WlSdk_Config_MixinAbstract.configTestLog = function(x_log)
  * @param {string} s_session_key Session key.
  * @return {WlSdk_Deferred_Promise} Promise that will be resolved when CSRF code is ready to use.
  */
-WlSdk_Config_MixinAbstract.csrfCode = function(s_session_key)
-{
-  return this.configDeferredCreate().resolve('').promise();
+WlSdk_Config_MixinAbstract.csrfCode = function (s_session_key) {
+    return this.configDeferredCreate().resolve('').promise();
 };
 
 /**
@@ -316,16 +312,14 @@ WlSdk_Config_MixinAbstract.csrfCode = function(s_session_key)
  *
  * @param {WlSdk_Config_MixinAbstract} o_child Child class to be extended.
  */
-WlSdk_Config_MixinAbstract.extend = function(o_child)
-{
-  for(var s_method in this)
-  {
-    if(!this.hasOwnProperty(s_method))
-      continue;
-    if(o_child.hasOwnProperty(s_method))
-      continue;
-    o_child[s_method] = this[s_method];
-  }
+WlSdk_Config_MixinAbstract.extend = function (o_child) {
+    for (var s_method in this) {
+        if (!this.hasOwnProperty(s_method))
+            continue;
+        if (o_child.hasOwnProperty(s_method))
+            continue;
+        o_child[s_method] = this[s_method];
+    }
 };
 
 // noinspection JSUnusedLocalSymbols
@@ -338,9 +332,8 @@ WlSdk_Config_MixinAbstract.extend = function(o_child)
  * @return {boolean} <tt>true</tt> to continue response processing in general way;
  * <tt>false</tt> to stop general success processing.
  */
-WlSdk_Config_MixinAbstract.requestSuccess = function(a_result,s_request,url_request)
-{
-  return true;
+WlSdk_Config_MixinAbstract.requestSuccess = function (a_result, s_request, url_request) {
+    return true;
 };
 
 /**
@@ -348,21 +341,18 @@ WlSdk_Config_MixinAbstract.requestSuccess = function(a_result,s_request,url_requ
  *
  * @returns {string} Session key.
  */
-WlSdk_Config_MixinAbstract.sessionKey = function()
-{
-  var s_session_id = window.localStorage.getItem('s_session_id');
-  if(s_session_id === null)
-  {
-    var s_symbols="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890";
-    s_session_id = '';
-    for(var i=0;i<40;i++)
-    {
-      var c=Math.round((Math.random()*10000000))%s_symbols.length;
-      s_session_id=s_session_id+s_symbols.charAt(c);
+WlSdk_Config_MixinAbstract.sessionKey = function () {
+    var s_session_id = window.localStorage.getItem('s_session_id');
+    if (s_session_id === null) {
+        var s_symbols = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890";
+        s_session_id = '';
+        for (var i = 0; i < 40; i++) {
+            var c = Math.round((Math.random() * 10000000)) % s_symbols.length;
+            s_session_id = s_session_id + s_symbols.charAt(c);
+        }
+
+        window.localStorage.setItem('s_session_id', s_session_id);
     }
 
-    window.localStorage.setItem('s_session_id',s_session_id);
-  }
-
-  return s_session_id;
+    return s_session_id;
 };
